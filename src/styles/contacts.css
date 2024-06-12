@@ -1,0 +1,52 @@
+#contacts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.contacts input{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    background-color: #c9c5c5;
+    color: #141414;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.contacts button{
+    width: 15%;
+    height:2rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #f40002;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+@media (max-width: 780px) {
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts input{
+        width: 50%;
+    }
+    .contacts button{
+        width: 10rem;
+    }
+}

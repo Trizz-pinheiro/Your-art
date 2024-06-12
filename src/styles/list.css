@@ -1,0 +1,123 @@
+#arts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.tattoos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+} 
+
+.image-container{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+.tattoos img{
+    border-radius: 8px;
+    width: calc(33.33% - auto);
+    max-width: 300px;
+    height: 100%;
+    transition: transform 0.3s ease;
+    opacity: 60%;
+}
+
+.tattoos img:hover{
+    opacity: 0.9;
+}
+
+.text-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.text-image:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and(max-width: 780px) {
+    .tattoos img{
+        width: calc(50% - 16px);
+        height: auto;
+    }
+}
+
+@media screen and(max-width: 480px) {
+    .tattoos img{
+        width: calc(100% - 16px);
+        height: auto;
+    }
+}
+
+#artists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.list-artists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-image {
+    position: relative;
+    width: calc(10% - auto); 
+    height: 70vh;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.container-image img {
+    width: 30rem;
+    height: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.text-artists {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #f1f1f1;
+    font-size: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.text-artists:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and(max-width: 768) {
+    artists{
+    width: 500rem;
+    }
+}

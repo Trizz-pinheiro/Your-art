@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Your Art</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img src="src/assets/logo.png" alt="Logo no cabeçalho" id="nav_logo" data-aos/>
+
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a href="#arts">Nossas artes</a>
+          </li>
+          <li class="nav-item">
+            <a href="#artists">Artistas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contatos</a>
+          </li>
+        </ul>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a href="#arts">Nossas art</a>
+          </li>
+          <li class="nav-item">
+            <a href="#artists">Artistas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts">Contatos</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div id="cta" data-aos="fade-up">
+          <img src="src/assets/logo.png" alt="Logo do estudio"/>
+          <h1 class="title">Pinte sua <span>historia</span> conosco</h1>
+          <p class="lorem-home">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+            quisquam sed pariatur quos necessitatibus sunt harum velit omnis,
+            quod reprehenderit voluptatibus deserunt praesentium. Amet, sapiente
+            error. Amet quas dolore quisquam!
+          </p>
+
+          <div id="cta_buttons">
+            <a href="https://api.whatsapp.com/send?phone=5521999764517&text=Quero%20fazer%20um%20agendamento%20hoje!" class="btn-default"
+            target="_blank"
+            > Faça seu orçamento </a>
+          </div>
+
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="banner" data-aos="fade-down" data-aos-delay="400">
+          <img src="src/assets/header.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <section id="about">
+      <div class="container about-content">
+        <div class="images-about">
+          <img src="src/assets/about1.png" alt="Primeira imagem sobre o estudio" />
+          <img src="src/assets/about2.png" alt="Segunda imagem sobre o estudio">
+          <img src="src/assets/about3.png" alt="Terceira imagem sobre o estudio">
+        </div>
+
+        <div class="about-description">
+          <h2 class="section-title">Sobre nós</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quasi
+            velit ipsa quis iste soluta iusto voluptatem accusantium nemo dolore
+            laboriosam cumque quam quas impedit explicabo atque tempore officiis
+            perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam vel molestias! Voluptate accusamus quod, unde non veritatis facilis exercitationem reiciendis, molestiae quidem doloremque quia labore, temporibus tempore sapiente esse.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="arts">
+      <h2 class="section-title">Tipos de artes</h2>
+
+        <div class="tattoos" data-aos="zoom-in-up">
+          <div class="image-container">
+          <img src="src/assets/aquarela.png" alt="tatuagem aquarela">
+          <span class="text-image">Aquarela</span>
+        </div>
+
+        <div class="image-container">
+          <img src="src/assets/oldschool.png" alt="tatuagem oldschool">
+          <span class="text-image">Oldschool</span>
+        </div>
+
+        <div class="image-container">
+          <img src="src/assets/blackout.png" alt="tatuagem blackout">
+          <span class="text-image">Blackout</span>
+        </div>
+
+        <div class="image-container">
+          <img src="src/assets/microrealismo.png" alt="tatuagem microrealista">
+          <span class="text-image">Micro realista</span>
+        </div>
+
+        <div class="image-container">
+          <img src="src/assets/maori.png" alt="tatuagem maori">
+          <span class="text-image">Maori</span>
+        </div>
+
+        <div class="image-container">
+          <img src="src/assets/newschool.png" alt="tatuagem new school">
+          <span class="text-image">New school</span>
+        </div>
+
+        <div class="image-container">
+          <img src="src/assets/fineline.png" alt="tatuagem fine line">
+          <span class="text-image">Fine line</span>
+        </div>
+
+        <div class="image-container">
+          <img src="src/assets/realismo.png" alt="tatuagem realismo">
+          <span class="text-image">Realismo</span>
+        </div>
+          
+      </div>
+    </section>
+
+    <section id="artists">
+      <h2 class="section-title">Nossos artistas</h2>
+
+      <div class="list-artists">
+        <div class="container-image">
+          <img src="src/assets/tatuadora1.png" alt="imagem do primeiro tatuador">
+          <span class="text-artists">Fernando</span>
+        </div>
+
+        <div class="container-image">
+          <img src="src/assets/tatuadora2.png" alt="imagem da segunda tatuadora">
+          <span class="text-artists">Max</span>
+        </div>
+
+        <div class="container-image">
+          <img src="src/assets/tatuadora3.png" alt="imagem da terceira tatuadora">
+          <span class="text-artists">Julia</span>
+        </div>
+
+        <div class="container-image">
+          <img src="src/assets/tatuadora4.png" alt="imagem da quarta tatuador">
+          <span class="text-artists">Marcela</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contatos</h2>
+      <form class="contacts" id="contactForm">
+          <input type="text" id="name" placeholder="Nome:" required>
+          <input type="tel" id="phone" placeholder="Telefone:" required>
+          <input type="email" id="email" placeholder="Email:" required>
+          <input type="text" id="subject" placeholder="Assunto:" required>
+          <button type="submit">Enviar</button>
+      </form>
+  </section>
+
+    <iframe 
+    width="100%"
+    margin-bottom="80px"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29421.48434220648!2d-43.083207164002836!3d-22.814112993362663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999b66e2590865%3A0xd58cc1b9f6e9f5a2!2sS%C3%A3o%20Gon%C3%A7alo%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1718143445644!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+      <div id="footer_items">
+        <div class="social-media-buttons">
+          <a href="">
+            <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+              </a>
+              
+              <a href="">
+                <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                  <span id="copyright">
+                      &copy 2024 TrizPinheiro
+                  </span>
+          </div>
+      </div>
+  </footer>
+
+  <a 
+    href="https://api.whatsapp.com/send?phone=5521999764517&text=Quero%20fazer%20um%20agendamento%20hoje!"
+    class="btn-whatsapp"
+    target="_blank"
+  >
+    <img src="src/assets/whatssapp.svg" alt="">
+    <span class="tooltip-text">Agende seu horário</span>
+  </a>
+
+    <script src="src/script.js"></script>
+    <script src="src/script/script.js"></script>
+  </body>
+</html>
